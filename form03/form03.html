@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORM 03</title>
+	<meta charset="utf-8">
+	<!-- Chèn liên kết tập tin CSS vào đây -->
+	<link rel="stylesheet" href="form03.css">
+	<!-- Chèn liên kết các tập tin JavaScripts vào đây -->
+	<script src="form03.js"></script>
+</head>
+
+<body>
+	<form action="https://fit.agu.edu.vn/demo.php" method="post">
+		<table border="0" width="400" align="center">
+			<!-- Chèn nội dung FORM vào đây -->
+			<tr>
+				<th colspan="2">GIẢI ĐÁP KỸ THUẬT</th>
+			</tr>
+			<tr>
+				<td>Họ và tên:</td>
+				<td><input type="text" name="HoTen"></td>
+			</tr>			
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="Email"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ:</td>
+				<td><input type="text" name="DiaChi"></td>
+			</tr>
+			<tr>
+				<td>Loại:</td>
+				<td><input type="text" name="Loai"></td>
+			</tr>
+			<tr>
+				<td>Câu hỏi của bạn:</td>
+				<td><input type="text" name="CauHoiCuaBan"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button onclick="return KiemTra()">Gởi câu hỏi</button>
+					<button type="reset">Hủy bỏ</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

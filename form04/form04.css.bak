@@ -1,0 +1,59 @@
+body{
+	font-family: Tahoma;
+	font-size: 11px;	
+}
+
+td{
+	padding: 5px;
+}
+
+th{
+	font-size: 13px;
+	background: #6a5acd;
+	color: #ffffff;
+}
+
+table{
+	border-collapse: collapse;
+	background: #afeeee ;
+}
+
+input{
+	padding: 5px;
+	border: 1px dotted 	#4b0082;
+	background:	#00ff7f;
+}
+
+input:focus{
+	border: 1px solid #4b0082;
+	background:		#adff2f; 
+}
+
+select{
+	padding: 5px;
+	border: 1px dotted	#4b0082;
+	background:	#00ff7f;
+}
+
+select:focus{
+	border: 1px solid #4b0082;
+	background:		#adff2f; 
+}
+
+textarea{
+	padding: 5px;
+	border: 1px dotted	#4b0082;
+	background:	#00ff7f;
+}
+
+textarea:focus{
+	border: 1px solid #4b0082;
+	background:		#adff2f; 
+}
+
+button{
+	background: #ff0000;
+	color: #ffffff;
+	border: #90ee90 1px solid;
+	padding: 5px 15px;
+}
